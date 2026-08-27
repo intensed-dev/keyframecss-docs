@@ -1,2 +1,2 @@
-# [CoffeeDevs Docs](https://coffeedevsmc.github.io)
-Official Documentation for CoffeeDevsMC
+# [KeyframeCSS Docs](https://intensed-dev.github.io/keyframecss-docs)
+Official Documentation for KeyframeCSS
