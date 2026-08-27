@@ -3,15 +3,15 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'en-US',
 
-  title: 'CoffeeDevs Docs',
-  description: 'CoffeeDevs Documentation for all of our Projects',
+  title: 'KeyframeCSS Docs',
+  description: 'KeyframeCSS Documentation for all Developers',
 
   base: '/',
 
   cleanUrls: true,
 
   themeConfig: {
-    logo: '/CoffeeDevs_final.png',
+    logo: '/logo.png',
 
     nav: [
       {
@@ -20,7 +20,7 @@ export default defineConfig({
       },
       {
         text: 'GitHub',
-        link: 'https://github.com/coffeedevsmc'
+        link: 'https://github.com/intensed-dev/KeyframeCSS'
       },
       {
         text: 'Discord',
@@ -30,7 +30,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'CoffeDevs docs',
+        text: 'KeyframeCSS docs',
         items: [
           {
             text: 'Home',
@@ -47,7 +47,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/coffeedevsmc'
+        link: 'https://github.com/intensed-dev/KeyframeCSS'
       },
       {
         icon: 'modrinth',
@@ -64,13 +64,13 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/coffeedevsmc/coffeedevsmc.github.io/edit/main/docs/:path',
+      pattern: 'https://github.com/intensed-dev/keyframecss-docs/edit/main/docs/:path',
       text: 'Edit this page'
     },
 
     footer: {
       message: 'Made with VitePress by Intensed',
-      copyright: 'Copyright © 2026 CoffeeDevs'
+      copyright: 'Copyright © 2026 KeyframeCSS'
     }
   }
 })
